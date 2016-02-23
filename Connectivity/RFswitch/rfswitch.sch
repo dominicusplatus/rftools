@@ -1,0 +1,159 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TLP175A U?
+U 1 1 56CCDCDD
+P 5700 2600
+F 0 "U?" H 5500 2800 50  0000 L CNN
+F 1 "TLP175A" H 5700 2800 50  0000 L CNN
+F 2 "SO-6" H 5500 2400 50  0000 L CIN
+F 3 "" H 5650 2600 50  0000 L CNN
+	1    5700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP175A U?
+U 1 1 56CCDD56
+P 5700 3300
+F 0 "U?" H 5500 3500 50  0000 L CNN
+F 1 "TLP175A" H 5700 3500 50  0000 L CNN
+F 2 "SO-6" H 5500 3100 50  0000 L CIN
+F 3 "" H 5650 3300 50  0000 L CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP175A U?
+U 1 1 56CCDD76
+P 5700 4000
+F 0 "U?" H 5500 4200 50  0000 L CNN
+F 1 "TLP175A" H 5700 4200 50  0000 L CNN
+F 2 "SO-6" H 5500 3800 50  0000 L CIN
+F 3 "" H 5650 4000 50  0000 L CNN
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP175A U?
+U 1 1 56CCDD99
+P 5700 4700
+F 0 "U?" H 5500 4900 50  0000 L CNN
+F 1 "TLP175A" H 5700 4900 50  0000 L CNN
+F 2 "SO-6" H 5500 4500 50  0000 L CIN
+F 3 "" H 5650 4700 50  0000 L CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 56CCDDFB
+P 9000 3400
+F 0 "P?" H 9010 3520 50  0000 C CNN
+F 1 "BNC" V 9110 3340 50  0000 C CNN
+F 2 "" H 9000 3400 50  0000 C CNN
+F 3 "" H 9000 3400 50  0000 C CNN
+	1    9000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 56CCDECF
+P 4500 3900
+F 0 "P?" H 4510 4020 50  0000 C CNN
+F 1 "BNC" V 4610 3840 50  0000 C CNN
+F 2 "" H 4500 3900 50  0000 C CNN
+F 3 "" H 4500 3900 50  0000 C CNN
+	1    4500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L BNC P?
+U 1 1 56CCDF36
+P 4500 3200
+F 0 "P?" H 4510 3320 50  0000 C CNN
+F 1 "BNC" V 4610 3140 50  0000 C CNN
+F 2 "" H 4500 3200 50  0000 C CNN
+F 3 "" H 4500 3200 50  0000 C CNN
+	1    4500 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BNC P?
+U 1 1 56CCDF98
+P 4500 2500
+F 0 "P?" H 4510 2620 50  0000 C CNN
+F 1 "BNC" V 4610 2440 50  0000 C CNN
+F 2 "" H 4500 2500 50  0000 C CNN
+F 3 "" H 4500 2500 50  0000 C CNN
+	1    4500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L BNC P?
+U 1 1 56CCDFED
+P 4500 4600
+F 0 "P?" H 4510 4720 50  0000 C CNN
+F 1 "BNC" V 4610 4540 50  0000 C CNN
+F 2 "" H 4500 4600 50  0000 C CNN
+F 3 "" H 4500 4600 50  0000 C CNN
+	1    4500 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2500 5400 2500
+Wire Wire Line
+	4700 3200 5400 3200
+Wire Wire Line
+	4700 3900 5400 3900
+Wire Wire Line
+	4700 4600 5400 4600
+Wire Wire Line
+	6000 2500 8800 2500
+Wire Wire Line
+	8800 2500 8800 3400
+Wire Wire Line
+	6000 3200 8800 3200
+Connection ~ 8800 3200
+$EndSCHEMATC
