@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/dominikguz/Documents/git/github/rftools/Connectivity/RFswitch/rfswitch.sch)
-    (date "czwartek, 25 lutego 2016 23:06:30")
+    (date "czwartek, 25 lutego 2016 23:09:39")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
