@@ -1,5 +1,5 @@
-* I:\Repo\Git\rftools\Simulation\LTSPICE\BuildingBlocks\Filter\Bandpass\6m\BPF_3O.asc
-VSRC1 N001 0 AC 1
+* /Users/dominikguz/Documents/git/github/rftools/Simulation/LTSPICE/BuildingBlocks/Filter/Bandpass/6m/BPF_3O.asc
+VSRC1 N001 0 AC 1 Rser=50
 RL1 0 N003 50
 C1 N003 N002 2.35p
 C2 0 N001 795.7p
